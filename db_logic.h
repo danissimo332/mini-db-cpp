@@ -3,10 +3,11 @@
 #include <string>
 #include <vector>
 
-struct User{
-    std::string name;
-    int age;
-    double salary;
+//структура для хранения данных пользователя
+struct User {
+    std::string name;   // имя
+    int age;            // возраст
+    double salary;      // зарплата
 };
 
 void addUser(std::vector<User>& db);
